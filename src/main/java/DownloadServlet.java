@@ -22,7 +22,7 @@ public class DownloadServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         String file = "result.txt";
-        String path = "c:/upload/";
+        String path = "c:/temp/";
         response.setContentType("APPLICATION/OCTET-STREAM");
         response.setHeader("Content-Disposition", "attachment; filename=\""
                 + file + "\"");

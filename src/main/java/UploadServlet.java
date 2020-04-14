@@ -18,7 +18,7 @@ import java.util.List;
 public class UploadServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final int LINE_LENGTH = 80;
-    private static final String path = "c:/Windows/temp";
+    private static final String path = "c:/temp/";
 
     public UploadServlet() {
         super();
